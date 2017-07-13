@@ -2,8 +2,44 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">
+		.second {
+			height: 310px; 
+			width: 310px; 
+			z-index: 100; 
+			display: inline-block; 
+			background-color: blue;
+			border-top-left-radius: 50%;
+			border-top-right-radius: 50%;
+		}
+
+		.first {
+			height: 155px; 
+			width: 310px; 
+			z-index: 100; 
+			display: inline-block; 
+			background-color: black;
+			position: relative;
+			left: 4px;
+		}
+
+		.third {
+			height: 155px; 
+			width: 310px; 
+			z-index: 100; 
+			display: inline-block; 
+			background-color: black;
+			position: relative;
+			right: 4px
+		}
+	</style>
 </head>
 <body>
-
+    <div class="row" style="background-color: gray;width: 950px;border: 0;padding: 0;">
+    	<div class="first" ></div>
+    	<div class="second" ></div>
+    	<div class="third" ></div>
+    </div>
 </body>
 </html>
